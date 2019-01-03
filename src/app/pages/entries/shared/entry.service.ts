@@ -60,7 +60,7 @@ delete(id: number): Observable<any>{
   }
 
   private jsonDataToEntry(jsonData: any): Entry{
-    return Object.assign((new Entry), jsonData);
+    return Object.assign((new Entry), jsonData); 
   }
   
   private handleError(error: any): Observable<any>{
